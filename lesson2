@@ -1,9 +1,51 @@
-Emacs's open file is a little different than the usual C-o that most
-modern programs use. C-x C-f runs find file in the minibuffer
-(display C-x C-f and then highlight the minibuffer by fading the
-rest). Here, you can either type in a path to a file you want to open
-or a directory you want to browse. This is also how you can create new
-files. You simply put in the new file name in an existing
-directory. If you are opening a new file, emacs gives you an empty
-buffer. If you are opening an existing file, emacs opens a buffer with
-that file in it.
+Stuff in parentheses are queues for video stuff. Remember to only use
+features I've introduced in the video.
+
+C-x C-f
+C-_
+C-k
+C-y
+
+====
+
+Need to time this script, come up with a video and get the video
+editing set up working again.
+
+====
+C-x C-f is actually a lot more powerful than I let on in lesson 1. The
+simplest common use is as a file browser. If you put in a directory
+name instead of a file name (highlight minibuffer doing this), it will
+open that directory (switch to dired). You can navigate this menu with
+the arrow keys and open files or directories by hitting enter while
+your cursor is over the corresponding line (demonstrate navigating
+directories and entering a file while talking). C-x C-f is similar to
+modern editor's C-o
+
+C-_ is undo. It's very similar to C-z in modern editors. Redo is a
+little weird. To redo, I generally stop undoing, hit a key, and undo
+that keystroke and undo the previous undo. Undo in emacs is best
+discovered, I don't know how it's coded well enough to explain it
+thoroughly. You can either hold down C-_ or repeatedly hit it to undo
+many keystrokes or commands.
+
+C-k is kill-line, which is very similar to cut in modern operating
+systems. emacs has something called a "killring" which, utility wise,
+is very closely related to the clipboard (which is where things are
+stored from cut and copy). When you hit C-k, the current line is
+placed on the kill ring. As long as you hold down Ctrl, you can hold
+down or repeatedly hit k to cut multiple lines. If you releast Ctrl,
+press it back down and start killing lines again, it will overwrite
+what was in the killring. Note that C-k will either kill a line up
+until a newline, or an empty line. This means to entirely delete a
+line with C-k, you have to hit k twice. I often use C-k for both cut
+and pasting lines and for getting rid of lines. It's a very fast way
+to delete a line.
+
+C-y is yank, which is more or less paste from modern operating
+systems. Yank takes whatever is currently in the killring, places it
+at the cursor and moves the cursor to the end of what it pastes (or
+yanks). Just like C-k, you can hold oy repeatedly hit y to repeat the
+command. Unlike C-k, if you release Ctrl nothing changes. C-y doesn't
+overwrite anything.
+
+====
