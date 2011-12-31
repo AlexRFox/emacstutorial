@@ -1,0 +1,81 @@
+================
+
+lesson 1 (already on youtube)
+C-x C-s
+C-x C-f
+C-x C-c
+C-g
+
+================
+
+lesson 2: (working on script)
+C-x C-f
+C-_
+C-k
+C-y
+
+================================================================
+
+stuff from old lesson plan:
+
+Write file (C-x C-w)
+
+Lesson 3:
+I-search (C-s)
+Query replace (M-%)
+Twiddle (C-t and M-t)
+Capitalize first letter (M-c)
+Upercase entire word (M-u)
+Lowercase entire word (M-l)
+Page down & up (C-v and M-v)
+Jump to start of file (M-<)
+Jump to end of file (M->)
+Introduce M-x
+Goto line (M-g M-g and M-x goto-line)
+Ispell (M-$, M-x ispell and M-x ispell-buffer)
+Format current paragraph (M-q)
+Auto fill mode (M-x auto-fill-mode)
+
+Lesson 4:
+Marks & commands that leave marks behind
+Add mark at cursor (C-Space)
+Pop mark (C-u C-Space)
+Switch cursor and last mark (C-x C-x)
+Tab region (C-M-\)
+Copy region from mark to cursor (M-w)
+Cut region from mark to cursor (C-w)
+
+Lesson 5:
+Next character (C-f)
+Last character (C-b)
+Next line (C-n)
+Previous line (C-p)
+Next word (M-f)
+Last word (M-b)
+Delete character (C-d)
+Delete word (M-d)
+Start of line (C-a)
+End of line (C-e)
+Add newline at cursor (C-j or C-m)
+Add newline after cursor (C-o)
+Command multiplier (C-u)
+
+Lesson 6:
+Buffers
+Switch buffer (C-x b)
+List buffers (C-x C-b)
+Kill buffer (C-x k)
+Split screen (C-x 0, C-x 1, C-x 2, C-x 3)
+Switch screens (C-x o)
+Step through buffers (C-x C-left, C-x C-left)
+
+Lesson 7:
+Customization (primarily .emacs)
+Keyboard macros (C-x (, C-x ))
+Programs in emacs (M-x calc, M-x butterfly and others)
+
+Commands that need to be worked in somewhere
+Help (C-h)
+Man (C-x man)
+Insert file (C-x i)
+Save buffers (C-x s)

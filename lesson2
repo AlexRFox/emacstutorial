@@ -1,0 +1,9 @@
+Emacs's open file is a little different than the usual C-o that most
+modern programs use. C-x C-f runs find file in the minibuffer
+(display C-x C-f and then highlight the minibuffer by fading the
+rest). Here, you can either type in a path to a file you want to open
+or a directory you want to browse. This is also how you can create new
+files. You simply put in the new file name in an existing
+directory. If you are opening a new file, emacs gives you an empty
+buffer. If you are opening an existing file, emacs opens a buffer with
+that file in it.
