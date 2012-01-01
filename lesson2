@@ -21,12 +21,10 @@ your cursor is over the corresponding line (demonstrate navigating
 directories and entering a file while talking). C-x C-f is similar to
 modern editor's C-o
 
-C-_ is undo. It's very similar to C-z in modern editors. Redo is a
-little weird. To redo, I generally stop undoing, hit a key, and undo
-that keystroke and undo the previous undo. Undo in emacs is best
-discovered, I don't know how it's coded well enough to explain it
-thoroughly. You can either hold down C-_ or repeatedly hit it to undo
-many keystrokes or commands.
+C-_ is undo. It's very similar to C-z in modern editors. You can hold
+C-_ down or hold Ctrl while hitting _ to undo multiple things. To
+redo, press any command other than undo (such as down arrow) and hit
+undo, which undos the previous undo.
 
 C-k is kill-line, which is very similar to cut in modern operating
 systems. emacs has something called a "killring" which, utility wise,
