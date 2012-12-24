@@ -1,12 +1,35 @@
-Stuff in parentheses are queues for video stuff. Remember to only use
-features I've introduced in the video.
-
 C-x C-f
 C-_
 C-k
 C-y
 
+================================================================
 ====
+rev 12-24-12
+====
+
+C-x C-f can do much more than open files. If run with a directory name
+it will open a "directory editor", or dired. dired is very similar to
+a normal text editor's file browser. It can do a lot of really cool
+things, but for now we'll just open a file with it. Navigate to a file
+with the arrow keys, and hit 'e' to edit it.
+
+C-_ is undo. To redo, press any key other than undo (such as an arrow
+key), than hit undo. That will undo previous undos.
+
+All commands can be repeatedly run by holding the keys, or by holding
+the modifier keys and repeatedly pressing the last key (such as
+holding Control and pressing _)
+
+C-k is kill-line. Basically, it cuts from the current cursor location
+to the end of the current line. If you run C-k repeatedly, all the
+killed lines will be stored together. C-k stores lines in a buffer
+called the "kill ring"
+
+C-y is yank. Yank is paste, with minimal emacs flavor. It will paste
+whatever is in the kill ring to where the cursor is.
+
+================================================================
 
 Need to time this script, come up with a video and get the video
 editing set up working again.
@@ -45,5 +68,3 @@ at the cursor and moves the cursor to the end of what it pastes (or
 yanks). Just like C-k, you can hold oy repeatedly hit y to repeat the
 command. Unlike C-k, if you release Ctrl nothing changes. C-y doesn't
 overwrite anything.
-
-====
