@@ -1,0 +1,54 @@
+Stuff about emacs, dumped into one file for future reference. No
+particular order. This file is far from complete, I'm almost learning
+new things. The best ways to learn about emacs are:
+
+Guessing
+Stumbling on something ("what. the. heck. just. happened. how can i
+ reproduce it?")
+Mix of those two, and looking it up
+Browsing internet
+Reading the manual (seriously, it's amazing. Especially when you start
+ developing an intuition for emacs)
+ - http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html#Top
+If you ever think "i wish emacs had X", google it! There's a good
+ chance emacs does, and/or someone has written something for it that
+ will do it.
+
+save file: generic
+save all buffers
+dired powerful tools (hit ?)
+undo's buffer mechanical
+kill ring (and moving backwards in it!)
+appending to previous kills
+yanking stuff
+prefix commands
+registers
+rectangles
+M-x
+elisp
+configuration
+keyboard macros
+editing keyboard macros
+major and minor modes
+navigating with the keyboard - how and why
+frames, buffers, etc.
+showy things
+processes in emacs
+debugging in emacs
+etags in emacs
+viper-mode
+search
+query replace
+regex search
+regex query replace
+general emacs logic (if C-thing exists, M-thing and C-M-thing might)
+generally useful things (twiddle, M-c, M-u, M-l, M-q)
+goto line
+ispell (single word & buffer)
+unicode (ish)
+marks!
+tab region
+help
+man
+insert file
+narrow region
